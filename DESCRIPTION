@@ -1,0 +1,29 @@
+Package: MAsP
+Title: R Shiny-based Application for Micro-scaffold Assisted Spatial Proteomics (MASP)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Shuo",
+           family = "Qian",
+           role = c("aut", "com", "cph", "cre"),
+           email = "sqian@buffalo.edu",
+           comment = c(ORCID = "0000-0002-9038-9704"))
+Description: What the package does (one paragraph).
+License: Apache License (>= 2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+ shiny,
+ shinydashboard,
+ tools,
+ ggplot2,
+ lsa,
+ png,
+ graphics,
+ grid,
+ gridExtra,
+ Spectrum
+VignetteBuilder: knitr
+Suggests: 
+    rmarkdown
