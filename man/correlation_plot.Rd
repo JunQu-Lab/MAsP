@@ -24,7 +24,7 @@ correlation_plot(
 \item{df_filtered}{the filtered protein dataset}
 }
 \value{
-a PCA plot colored by label from spectral clustering, and a dataset containing cluster label.
+Distribution maps for top 3 most correlated proteins, and correlation values
 }
 \description{
 Correlation plots

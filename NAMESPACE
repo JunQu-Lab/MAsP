@@ -2,8 +2,12 @@
 
 export(MAsPShiny)
 export(MyDistriPlot)
+export(MyDistriPlot_batch)
 export(MyPreview)
 export(SClustering)
+export(SVD_plot)
+export(VE_filtering)
 export(correlation_plot)
 export(imputation)
+export(imputation_df)
 export(loc_convert)

@@ -5,10 +5,6 @@
 #' @param location the formatted location information
 #' @return a location preview plot
 #' @export
-#'
-#'
-#'
-#'
 
 
 MyPreview <- function(location){

@@ -23,6 +23,7 @@ imputation <- function(target, location_corr){
   return(target_impu)
 }
 
+#' @export
 imputation_df <- function(df, location_corr){
   output <- data.frame(matrix(NA, ncol = nrow(location_corr), nrow = nrow(df)))
   names(output) <- location_corr$Name
@@ -32,6 +33,7 @@ imputation_df <- function(df, location_corr){
   return(output)
 }
 
+#' @export
 SVD_plot <- function(df, location){
   outputs <- list()
   withProgress(message = 'VE plot', value = 0, {
@@ -85,12 +87,14 @@ SVD_plot <- function(df, location){
   return(outputs)
 }
 
+#' @export
 VE_filtering <- function(df, setting, value = 0.2){
   if(setting == 'med') protein_filtered <- df$protein_name[df$VE > median(df$VE)]
   if(setting == 'customized') protein_filtered <- df$protein_name[df$VE > value]
   return(protein_filtered)
 }
 
+#' @export
 SClustering <- function(df_filtered){
   withProgress(message = 'Spectral Clustering', value = 0, {
     incProgress(0.5, detail = 'Perform Spectral Clustering...')

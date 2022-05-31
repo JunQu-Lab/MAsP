@@ -3,13 +3,9 @@
 #'
 #'
 #' @param df_filtered the filtered protein dataset
-#' @return a PCA plot colored by label from spectral clustering, and a dataset containing cluster label.
+#' @return Distribution maps for top 3 most correlated proteins, and correlation values
 #' @export
-#'
-#'
-#'
-#'
-#'
+
 
 correlation_plot <- function(df, target_name, type = 'pearson', location, limit, upperL = 2, lowerL = -2,
                              color1, color2, color3, transparent = FALSE, mask = FALSE, g = g){

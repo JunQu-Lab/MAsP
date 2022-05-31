@@ -5,10 +5,7 @@
 #' @param df_filtered the filtered protein dataset
 #' @return a PCA plot colored by label from spectral clustering, and a dataset containing cluster label.
 #' @export
-#'
-#'
-#'
-#'
+
 
 
 SClustering <- function(df_filtered){

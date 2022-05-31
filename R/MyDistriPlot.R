@@ -1,22 +1,22 @@
-#' Distribution plot
+#' Distribution map generation of proteins
 #'
-#' Distribution plot and its batch mode
+#' Distribution map generation of proteins
 #'
 #' @param df the quantitative protein result
 #' @param location the original location information
-#' @param target_name the protein in the plot
-#' @param limit a logical value, if setting the value limits of protein abundance/ratio in the distribution plot
+#' @param target_name the protein in the map
+#' @param limit a logical value, if setting the value limits of protein abundance/ratio in the distribution map
 #' @param scale a logical value, if converting data to z-score
-#' @param upperL the upperbound of the protein abundance/ratio the plot can show
-#' @param lowerL the lowerbound of the protein abundance/ratio the plot can show
+#' @param upperL the upperbound of the protein abundance/ratio the map can show
+#' @param lowerL the lowerbound of the protein abundance/ratio the map can show
 #' @param color1 the lower color, color name and HTML code are both acceptable
 #' @param color2 the middle color, color name and HTML code are both acceptable
 #' @param color3 the upper color, color name and HTML code are both acceptable
-#' @param transparent a logical value, if the plot is with a transparent background while downloading
-#' @param mask a logical value, if adding a brain-shape cover on the plot
+#' @param transparent a logical value, if the map is with a transparent background while downloading
+#' @param mask a logical value, if adding a brain-shape cover on the map
 #' @param Legend a logical value, if showing the legend
 #' @param g the brain-shape cover
-#' @return a protein distribution plot
+#' @return a protein distribution map
 #' @export
 MyDistriPlot <- function(df, location, target_name, limit, scale = TRUE, upperL = 2, lowerL = -2,
                          color1, color2, color3, transparent = FALSE, mask = FALSE, Legend = TRUE, g = g){
@@ -121,6 +121,8 @@ MyDistriPlot <- function(df, location, target_name, limit, scale = TRUE, upperL 
 
   return(output)
 }
+
+#' @export
 MyDistriPlot_batch <- function(df, location, proteins_csv, directory, limit, scale = TRUE, upperL = 2, lowerL = -2, mask = FALSE,
                                color1, color2, color3, transparent = FALSE, Legend = TRUE, width, height, g = g){
   withProgress(message = 'Batch Plots', value = 0, {

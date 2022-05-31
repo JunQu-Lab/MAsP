@@ -2,7 +2,7 @@
 % Please edit documentation in R/MyDistriPlot.R
 \name{MyDistriPlot}
 \alias{MyDistriPlot}
-\title{Distribution plot}
+\title{Distribution map generation of proteins}
 \usage{
 MyDistriPlot(
   df,
@@ -26,15 +26,15 @@ MyDistriPlot(
 
 \item{location}{the original location information}
 
-\item{target_name}{the protein in the plot}
+\item{target_name}{the protein in the map}
 
-\item{limit}{a logical value, if setting the value limits of protein abundance/ratio in the distribution plot}
+\item{limit}{a logical value, if setting the value limits of protein abundance/ratio in the distribution map}
 
 \item{scale}{a logical value, if converting data to z-score}
 
-\item{upperL}{the upperbound of the protein abundance/ratio the plot can show}
+\item{upperL}{the upperbound of the protein abundance/ratio the map can show}
 
-\item{lowerL}{the lowerbound of the protein abundance/ratio the plot can show}
+\item{lowerL}{the lowerbound of the protein abundance/ratio the map can show}
 
 \item{color1}{the lower color, color name and HTML code are both acceptable}
 
@@ -42,17 +42,17 @@ MyDistriPlot(
 
 \item{color3}{the upper color, color name and HTML code are both acceptable}
 
-\item{transparent}{a logical value, if the plot is with a transparent background while downloading}
+\item{transparent}{a logical value, if the map is with a transparent background while downloading}
 
-\item{mask}{a logical value, if adding a brain-shape cover on the plot}
+\item{mask}{a logical value, if adding a brain-shape cover on the map}
 
 \item{Legend}{a logical value, if showing the legend}
 
 \item{g}{the brain-shape cover}
 }
 \value{
-a protein distribution plot
+a protein distribution map
 }
 \description{
-Distribution plot and its batch mode
+Distribution map generation of proteins
 }

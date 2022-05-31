@@ -5,13 +5,6 @@
 #' @param location the location information of each micro-slot
 #' @return a new format that the codes are easy to deal with
 #' @export
-#'
-#'
-#'
-#'
-
-
-
 loc_convert <- function(location){
   loc_vector <- base::unname(unlist(location))
   loc_vector <- loc_vector[!(loc_vector == '')]

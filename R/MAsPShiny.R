@@ -4,8 +4,6 @@
 #'
 #'
 #' @export
-#'
-
 
 MAsPShiny <- function(){
   options(shiny.maxRequestSize=100000*1024^2)
