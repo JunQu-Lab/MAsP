@@ -18,12 +18,6 @@
 #' @param g the brain-shape cover
 #' @return a protein distribution plot
 #' @export
-#'
-#'
-#'
-
-
-
 MyDistriPlot <- function(df, location, target_name, limit, scale = TRUE, upperL = 2, lowerL = -2,
                          color1, color2, color3, transparent = FALSE, mask = FALSE, Legend = TRUE, g = g){
   #outputs <- list()
@@ -127,8 +121,6 @@ MyDistriPlot <- function(df, location, target_name, limit, scale = TRUE, upperL 
 
   return(output)
 }
-
-
 MyDistriPlot_batch <- function(df, location, proteins_csv, directory, limit, scale = TRUE, upperL = 2, lowerL = -2, mask = FALSE,
                                color1, color2, color3, transparent = FALSE, Legend = TRUE, width, height, g = g){
   withProgress(message = 'Batch Plots', value = 0, {

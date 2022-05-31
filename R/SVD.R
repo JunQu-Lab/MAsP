@@ -5,11 +5,6 @@
 #' @param location the formatted location information
 #' @return a location preview plot
 #' @export
-#'
-#'
-#'
-#'
-
 imputation <- function(target, location_corr){
   target <- data.frame(Name = names(target), ratio = as.numeric(target))
   location_corr$value <- NA
@@ -27,9 +22,7 @@ imputation <- function(target, location_corr){
   target_impu <- as.vector(as.numeric(location_corr$value))
   return(target_impu)
 }
-################ Pattern Recognition ###################
 
-# imputation data generation
 imputation_df <- function(df, location_corr){
   output <- data.frame(matrix(NA, ncol = nrow(location_corr), nrow = nrow(df)))
   names(output) <- location_corr$Name
