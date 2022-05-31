@@ -1,9 +1,4 @@
 
-######## 3D printing app #########
-
-library(shiny)
-library(shinydashboard)
-
 options(shiny.maxRequestSize=2000*1024^2)
 
 
@@ -25,9 +20,7 @@ ui <- dashboardPage(
     tags$head(
       tags$style(
         "body{
-          min-height: 1080px;
           height: auto;
-          min-width: 1920px;
           margin: auto;
 }"
       )
@@ -74,14 +67,14 @@ ui <- dashboardPage(
                                 accept=".csv"),
                       fileInput("Locations", "Upload location information (.csv):",
                                 accept=".csv"),
-                      fileInput("BrainCover", "Upload tissue shape templete (.png):",
+                      fileInput("BrainCover", "Upload tissue shape template (.png):",
                                 accept=c(".png")),
                       textInput(inputId = "TargetProtein",
                                 label = "Input the name of protein you would like to illustrate:"),
                       checkboxInput("Scale",
                                     "Convert data to Z-score", value = TRUE),
                       checkboxInput("Mask",
-                                    "Add tissue shape templete"),
+                                    "Add tissue shape template"),
                       checkboxInput("Transparent",
                                     "Make the plot with transparent background while downloading"),
                       checkboxInput("Legend",
@@ -97,7 +90,7 @@ ui <- dashboardPage(
                       textInput(inputId = "Color3",
                                 label = "Input the upper color for the distribution map:", value = "#FF0000"),
                       textInput(inputId = "Color2",
-                                label = "Input the middle color for the distribution map:", value = "#FFF59D"),
+                                label = "Input the middle color for the distribution map:", value = "#FFFF00"),
                       textInput(inputId = "Color1",
                                 label = "Input the lower color for the distribution map:", value = "#00FF00"),
                       actionButton(inputId = "PreGoButton",label = "Draw Distribution Map",icon=icon("pencil"),width="100%"),

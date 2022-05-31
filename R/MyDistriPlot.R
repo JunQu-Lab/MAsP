@@ -32,6 +32,7 @@ MyDistriPlot <- function(df, location, target_name, limit, scale = TRUE, upperL 
   target_name <- toupper(target_name)
   target <- df[grep(target_name, rownames(df)),]
   target <- target[1,]
+  target_name <- toupper(rownames(target))
   legend_label <- 'Protein Relative Abundance'
   if(scale){
     tmp_value <- as.numeric(target)
@@ -81,7 +82,7 @@ MyDistriPlot <- function(df, location, target_name, limit, scale = TRUE, upperL 
 
   # read png mask
 
-  PlotTitle <- paste('Heatmap for Protein', rownames(target))
+  PlotTitle <- paste('Heatmap for Protein', target_name)
   new_loc$row <- factor(new_loc$row, levels = base::sort(unique(new_loc$row), decreasing = TRUE))
   new_loc$column <- factor(new_loc$column, levels = base::sort(unique(new_loc$column), decreasing = FALSE))
 
