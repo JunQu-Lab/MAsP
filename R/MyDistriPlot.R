@@ -30,7 +30,7 @@ MyDistriPlot <- function(df, location, target_name, limit, scale = TRUE, upperL 
   legend_label <- 'Protein Relative Abundance'
   if(scale){
     tmp_value <- as.numeric(target)
-    tmp_value <- tmp_value-mean(tmp_value, na.rm = TRUE)/sd(tmp_value, na.rm = TRUE)
+    tmp_value <- (tmp_value-mean(tmp_value, na.rm = TRUE))/sd(tmp_value, na.rm = TRUE)
     target[1,] <- tmp_value
     legend_label = "Protein Z-score"
   }
