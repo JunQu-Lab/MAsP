@@ -36,5 +36,3 @@ User can download the manual either at the mainpage of MAsP app or at the github
 [Wang, Xue, et al. "Ultra-High-Resolution IonStar Strategy Enhancing Accuracy and Precision of MS1-Based Proteomics and an Extensive Comparison with State-of-the-Art SWATH-MS in Large-Cohort Quantification." Analytical chemistry 93.11 (2021): 4884-4893.](https://pubs.acs.org/doi/abs/10.1021/acs.analchem.0c05002?casa_token=12l8WRigfZ0AAAAA:0qwzMnfjpE2stVCpMYKICmvqwofN15Q6ItzDZ7ATFY3m3aFI6oSzB1z20CJGzzwASyaegR5POgS8xA)
 
 [Fonville, Judith M., et al. "Robust data processing and normalization strategy for MALDI mass spectrometric imaging." Analytical chemistry 84.3 (2012): 1310-1319.](https://pubs.acs.org/doi/full/10.1021/ac201767g)
-
-![image](https://user-images.githubusercontent.com/59838185/171734544-53ef7f30-6633-4fd6-99bf-352c4da4db61.png)
