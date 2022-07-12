@@ -27,6 +27,9 @@ library(MAsP)
 MAsP::MAsPShiny()
 ```
 
+## Test data
+This [Google Drive Link](https://drive.google.com/drive/folders/16oierixQPBpj_b1WYT689bUHbGNDt0OU?usp=sharing) contains a test data sheet, a location information sheet and a brain cover image.
+
 ## Manual
 User can download the manual either at the mainpage of MAsP app or at the github directory [MAsP/inst/shiny/MAsP](https://github.com/JunQu-Lab/MAsP/tree/master/inst/shiny/MAsP).
 
