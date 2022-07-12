@@ -31,7 +31,7 @@ MAsP::MAsPShiny()
 User can download the manual either at the mainpage of MAsP app or at the github directory [MAsP/inst/shiny/MAsP](https://github.com/JunQu-Lab/MAsP/tree/master/inst/shiny/MAsP).
 
 ## Related Articles
-[Whole-tissue Mapping of >5000 proteins by Micro-scaffold Assisted Spatial Proteomics(MASP), preprint](https://www.researchsquare.com/article/rs-1786070/v1)
+[Whole-tissue Mapping of >5000 proteins by Micro-scaffold Assisted Spatial Proteomics(MASP), preprint.](https://www.researchsquare.com/article/rs-1786070/v1)
 
 [Shen, Xiaomeng, et al. "IonStar enables high-precision, low-missing-data proteomics quantification in large biological cohorts." Proceedings of the National Academy of Sciences 115.21 (2018): E4767-E4776.](https://www.pnas.org/content/115/21/E4767.short)
 
