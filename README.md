@@ -31,10 +31,11 @@ MAsP::MAsPShiny()
 User can download the manual either at the mainpage of MAsP app or at the github directory [MAsP/inst/shiny/MAsP](https://github.com/JunQu-Lab/MAsP/tree/master/inst/shiny/MAsP).
 
 ## Test data
-This [Google Drive link](https://drive.google.com/drive/folders/16oierixQPBpj_b1WYT689bUHbGNDt0OU?usp=sharing) contains:
-"MASP_data.csv", the abundance ratios of the 5019 proteins quantified by MASP with spatial locations;
-"Locations.csv", the spatial locations of the micro-specimans;
-"Brain_cover.png", a brain cover image.
+This [Google Drive link](https://drive.google.com/drive/folders/16oierixQPBpj_b1WYT689bUHbGNDt0OU?usp=sharing) contains:\
+"MASP_data.csv", the abundance ratios of the 5019 proteins quantified by MASP with spatial locations;\
+"Locations.csv", the spatial locations of the micro-specimans;\
+"Brain_cover.png", a brain cover image.\
+\
 The files provided here can be uploaded in "Data upload" section in the App, please refer to the manual for details.
 
 ## Related Articles
